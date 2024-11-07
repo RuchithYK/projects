@@ -1,0 +1,48 @@
+h1 {
+    background-color: cyan;
+    text-align: center;
+    color: red;
+    font-size: 5rem;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+#Rock, #Paper, #Scissor {
+    width: 25vmin;
+    height: 20vmin;
+    font-size: 5vmin;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: rgb(48, 48, 214);
+    color: white;
+    cursor: pointer;
+}
+#Rock:hover, #Paper:hover, #Scissor:hover {
+    background-color: rgb(67, 165, 60);
+}
+#msg {
+    font-size: 3rem;
+    background-color: blueviolet;
+    display: inline;
+    color: white;
+    border-radius: 1rem;
+    padding: 20px;
+}
+.msg {
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+.score{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
